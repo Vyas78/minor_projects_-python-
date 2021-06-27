@@ -16,36 +16,36 @@ for i in range (0,x):
     c = random.choice(choices)
 
     if u == 'r'  and c == 'r':
-        print(c)
+        print("Computer chose", c)
         print("\nDRAW!")
         print(f"Computer score is {c_score} and User score is {u_score}")
 
     elif u == 'r' and c == 'p':
-        print(c)
+        print("Computer chose", c)
         print("\nComputer won!")
         c_score += 1
         print(f"Computer score is {c_score} and User score is {u_score}")
 
     elif u == 'r' and c == 's':
-        print(c)
+        print("Computer chose", c)
         print("\nYou won!")
         u_score += 1
         print(f"Computer score is {c_score} and User score is {u_score}")
 
 
     elif u == 'p' and c == 'p':
-        print(c)
+        print("Computer chose", c)
         print("\nDraw!!")
         print(f"Computer score is {c_score} and User score is {u_score}")
 
     elif u == 'p' and c == 's':
-        print(c)
+        print("Computer chose", c)
         print("\nComputer won!!")
         c_score += 1
         print(f"Computer score is {c_score} and User score is {u_score}")
 
     elif u == 'p'  and c == 'r' :
-        print(c)
+        print("Computer chose", c)
         print("\nYou won!!")
         u_score += 1
         print(f"Computer score is {c_score} and User score is {u_score}")
@@ -54,18 +54,18 @@ for i in range (0,x):
 
 
     elif u == 's'  and c == 's' :
-        print(c)
+        print("Computer chose", c)
         print("\nDraw!!")
         print(f"Computer score is {c_score} and User score is {u_score}")
 
     elif u == 's' and c == 'r' :
-        print(c)
+        print("Computer chose", c)
         print("\nComputer won!!")
         c_score += 1
         print(f"Computer score is {c_score} and User score is {u_score}")
 
     elif u == 's'  and c == 'p' :
-        print(c)
+        print("Computer chose", c)
         print("\nYou won!!")
         u_score += 1
         print(f"Computer score is {c_score} and User score is {u_score}")
